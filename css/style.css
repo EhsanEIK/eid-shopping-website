@@ -7,13 +7,17 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-section {
+.container {
     display: flex;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
 }
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 p {
@@ -40,7 +44,6 @@ p {
 .half-width img {
     width: 100%;
     position: relative;
-    top: 50px;
 }
 
 .link-button {
@@ -63,4 +66,32 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+}
+
+.card-box-items {
+    width: 50%;
+    margin-left: -50px;
+}
+
+.card-box-items img {
+    width: 25%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.card-box {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+
+    background-color: rgba(223, 214, 219, 0.5);
+}
+
+.shopping-cart-headline {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
