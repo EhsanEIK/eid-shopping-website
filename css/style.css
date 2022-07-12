@@ -37,6 +37,12 @@ p {
     top: 50px;
 }
 
+.half-width img {
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(rgb(150, 17, 17), rgb(255, 16, 16));
