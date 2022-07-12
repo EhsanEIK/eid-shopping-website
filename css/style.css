@@ -1,0 +1,37 @@
+body{
+    font-family: 'Caveat', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+section{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    color: grey;
+}
+.half-width{
+    width: 30%;
+    margin-left: 12%;
+    margin-right: 5%;
+}
+.half-width video{
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(150, 17, 17), rgb(255, 16, 16));
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    display: inline-block ;
+    margin-top: 5px;
+}
